@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@charset "UTF-8";
+/* Feito com carinho por Bruno Bonavigo para o Fã-site Habblando / https://github.com/Bonavigo / https://twitter.com/BrunoBonavigo e https://twitter.com/bruno_bonamigo */
+
+:root {
+	--font-family: 'Roboto';
+
+	--scroll-track: #F1F1F1;
+	--scroll-thumb: #DCDCDC;
+
+	--background-error: ;
+	--background-maintenance: #F6F7EB;
+
+	--habblando-dark-blue: #032A4F;
+	--habblando-medium-blue: #043463;
+	--habblando-light-blue: #0A4780;
+	--habblando-cream: #F6F7EB;
+	--background: 
+}
+.habblando_body {
+	height: 100vh;
+	font-family: var(--font-family);
+	background-color: var(--habblando-cream);
+}
+.height-100vh {
+	height: 100vh;
+}
+.background_error {
+	background-color: var(--background-error);
+}
+.background_maintenance {
+	background-color: var(--background-maintenance);
+}
+.box_radio {
+	background-color: var(--habblando-medium-blue);
+	border-radius: 10px;
+	padding: 1.5em 2em;
+}
+.dados_radio {
+	display: flex;
+	flex-flow: column;
+}
+.box_radio .dados_radio h4 {
+	color: var(--habblando-cream);
+	font-size: 1.5em;
+	margin-bottom: 0px;
+}
+.box_radio .dados_radio p {
+	color: var(--habblando-cream);
+	font-size: 1em;
+	margin-bottom: 0px;
+}
+.habblando_body::-webkit-scrollbar {
+	width: 3px;
+}
+.habblando_body::-webkit-scrollbar-track {
+	background: var(--scroll-track);
+}
+.habblando_body::-webkit-scrollbar-thumb {
+	background: var(--scroll-thumb);
+}
+.box_logo {
+	padding: 4.5em 0;
+	background: var(--habblando-dark-blue);
+}
+.box_logo img {
+	image-rendering: pixelated;
+	height: 117px;
+	width: 117px;
+	margin: 15px 0;
+}
+.shadow_logo {
+	text-shadow: 2px 2px #000;
+}
+.habblando_navbar {
+	background: var(--habblando-medium-blue);
+}
+.habblando_footer_top {
+	background: var(--habblando-medium-blue);
+}
+.habblando_footer_bottom {
+	background: var(--habblando-dark-blue);
+}
+
+@media (max-width: 575px) {
+	.d-xsm-flex {
+		display: flex !important;
+	}
+	.flex-column-xsm {
+		flex-flow: column;
+	}
+}
